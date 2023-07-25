@@ -1,4 +1,4 @@
-tensorflow==2.4.1
+tensorflow==2.11.1
 pytorch==1.8.1
 nltk==3.6.2
 spacy==3.0.6
