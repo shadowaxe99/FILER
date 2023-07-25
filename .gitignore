@@ -1,0 +1,63 @@
+# .gitignore
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+*.db
+*.sqlite
+
+# Flask
+instance/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.suo
+*.user
+*.sage
+*.bak
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+*.env
+
+# Deployment
+deploy/
+
+# CI/CD
+ci/
+cd/
+
+# Node
+node_modules/
+
+# End of .gitignore
